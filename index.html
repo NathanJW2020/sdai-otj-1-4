@@ -43,43 +43,6 @@
             font-size: 1.2em;
         }
     </style>
-</head>
-<body>
-    <div id="header" class="main-header" style="background-color: orange;">
-        <h1 class="underline">The Dev Dish Quarterly Menu</h1>
-    </div>
-    <nav class="navbar">
-        <a href="#menu">Menu</a>
-        <a href="#about">About Us</a>
-        <a href="#dev favorites">Dev Favorites</a>
-        <a href="#locations">Locations</a>
-        <a href="#hours">Hours</a>
-      </nav>
-      <div> <img src="assets/images/pexels-edwardeyer-1247755.jpg" width="1867" height="450" alt="Cook serving street food to customer in food truck."></div>
-    <h2>Wraps</h2>
-    <h3 class="bulleted">Function Fries</h3>
-     <p>-Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
-    <h3 class="bulleted">Loop Wrap</h3>
-     <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce</p>
-    <h3 class="bulleted">Stack Overflow</h3>
-     <p>Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</p>
-    <h3 class="bulleted">Recursive Roll</h3>
-     <p>Smoked salmon, cream cheese, cucumber, dill, and baby spinach</p>
-    <h3 class="bulleted">Binary Bites</h3>
-     <p>Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</p>
-    <h3 class="bulleted">Git Wrap</h3>
-     <p>egetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</p>
-    <h3>Note:</h3>
-     <p>All wraps, except Stack Overflow are served on your choice of flour or corn tortilla.</p>
-    <h2>Sides</h2> 
-    <h3>Bug-Free Fries</h3>
-     <p>Just a side of fries</p>
-    <h3>Three-Layer Cheese Fries</h3>
-     <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
-    <h3>Golden Ratio Fries</h3>
-     <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
-    <h3>Compile Chips</h3>
-     <p>Tortilla chips and salsa verde</p>
     <style>
         /* Basic styling for each section */
         #hero {
@@ -103,9 +66,23 @@
         #location { background-color: #d0d0d0; }
         #hours { background-color: #c0c0c0; }
       </style>
-    </head>
-    <body>
-    
+</head>
+<body>
+      <!-- Navbar Section -->
+      <nav class="navbar">
+          <a href="#menu">Menu</a>
+          <a href="#about">About Us</a>
+          <a href="#devfavorites">Dev Favorites</a>
+          <a href="#locations">Locations</a>
+          <a href="#hours">Hours</a>
+      </nav>
+  
+      <!-- Header Section -->
+      <div id="header" class="main-header" style="background-color: orange;">
+        <h1 class="underline">The Dev Dish Quarterly Menu</h1>
+        <img src="assets/images/pexels-edwardeyer-1247755.jpg" width="1867" height="450" alt="Cook serving street food to customer in food truck.">   
+      </div>
+
       <!-- Hero Section -->
       <div id="hero">
         <h1>Thank You For Visiting Our Website</h1>
@@ -118,6 +95,34 @@
         <p> What's so great about combining the worlds of coding and cuisine? Dev Dish was founded by two passionate developers who turned their love for software into a culinary adventure. After years of coding by day and cooking by night, they decided to merge their two passions and create something extraordinary.</p>
         <p>Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
         <p>Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.</p>
+      </div>
+  
+      <!-- Menu Section -->
+      <div id="menu">
+        <h2>Wraps</h2>
+        <h3 class="bulleted">Function Fries</h3>
+         <p>-Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
+        <h3 class="bulleted">Loop Wrap</h3>
+         <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce</p>
+        <h3 class="bulleted">Stack Overflow</h3>
+         <p>Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</p>
+        <h3 class="bulleted">Recursive Roll</h3>
+         <p>Smoked salmon, cream cheese, cucumber, dill, and baby spinach</p>
+        <h3 class="bulleted">Binary Bites</h3>
+         <p>Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</p>
+        <h3 class="bulleted">Git Wrap</h3>
+         <p>egetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</p>
+        <h3>Note:</h3>
+         <p>All wraps, except Stack Overflow are served on your choice of flour or corn tortilla.</p>
+        <h2>Sides</h2> 
+        <h3>Bug-Free Fries</h3>
+         <p>Just a side of fries</p>
+        <h3>Three-Layer Cheese Fries</h3>
+         <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
+        <h3>Golden Ratio Fries</h3>
+         <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
+        <h3>Compile Chips</h3>
+         <p>Tortilla chips and salsa verde</p>
       </div>
     
       <!-- Dev Favorites Section -->
@@ -135,12 +140,16 @@
       <!-- Hours Section -->
       <div id="hours">
         <h2>Hours</h2>
-        <p> <span class="hours">Monday-10am to 7pm | Tuesday-10am to 7pm | Wednesday-10am to 7pm | Thursday-10am to 10pm | Friday-10am to 9pm | Saturday-10am to 11pm | Sunday-10am to 11pm</span></p>
+        <p>
+          <span class="hours">Monday-10am to 7pm | Tuesday-10am to 7pm | Wednesday-10am to 7pm | Thursday-10am to 10pm | Friday-10am to 9pm | Saturday-10am to 11pm | Sunday-10am to 11pm</span>    
+        </p>
       </div>
-      <na clacc="navbar">
+      
+      <!-- Footer Section -->
+      <div id="navbar">
         <a href="#facebook">"Facebook</a>
         <a href="#twitter">"Twitter</a>
         <a href="#instagram">"Instagram"</a>
-      </na>
+      </div>
 </body>
 </html>
