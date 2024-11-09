@@ -1,0 +1,63 @@
+/* Styling for the hero section */
+#hero {
+    background-image: url('assets/images/pexels-edwardeyer-1247755.jpg'); /* Path to hero image */
+    background-size: cover; /* Makes image cover entire div */
+    background-position: center; /* Centers image within div */
+    height: 400px; /* Adjust height as needed */
+    color: white; /* Text color for readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+#hero h1 {
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Underline style for the h1 header */
+.underline {
+    border-bottom: 2px solid #333; /* Customize color and thickness */
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Bullet point style for the h3 header */
+.bulleted::before {
+    content: "• "; /* Bullet character */
+    color: #333; /* Bullet color */
+    font-size: 1.2em;
+}
+
+/* Basic styling for each section */
+#about-us,
+#dev-favorites,
+#location,
+#hours {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Distinguishing each section with color */
+#about-us {
+    background-color: #f0f0f0;
+}
+
+#dev-favorites {
+    background-color: #e0e0e0;
+}
+
+#location {
+    background-color: #d0d0d0;
+}
+
+#hours {
+    background-color: #c0c0c0;
+}
+
