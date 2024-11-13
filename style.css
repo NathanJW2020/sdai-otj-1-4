@@ -21,6 +21,17 @@
     font-size: 1.2em;
 }
 
+/* Styling for the about us section */
+#about-us h2 {
+    background-image: url('assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg'); /* Path to about-us image */
+    background-size: contain;
+    background-position: right;
+    height: 400px;
+    text-align: center;
+    
+    font-size: xx-large;
+}
+
 /* Underline style for the h1 header */
 .underline {
     border-bottom: 2px solid #333; /* Customize color and thickness */
