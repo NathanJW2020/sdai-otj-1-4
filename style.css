@@ -71,3 +71,13 @@
     background-color: #c0c0c0;
 }
 
+.gallery-container {
+    display: flex;
+    justify-content: ???;
+    align-items: ???;
+    flex-wrap: wrap;
+}
+
+/* Social Media logo footer section */
+
+
